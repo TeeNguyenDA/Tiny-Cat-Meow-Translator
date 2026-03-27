@@ -244,7 +244,7 @@ def main():
         with col2:
             st.markdown("**2. Process**\nThe audio is converted to a mel-spectrogram — a visual fingerprint of sound.")
         with col3:
-            st.markdown("**3. Classify**\nEfficientNet-B0, fine-tuned on 5 cat emotion d classes, predicts the emotion.")
+            st.markdown("**3. Classify**\nEfficientNet-B0, fine-tuned on 5 cat emotion classes, predicts the emotion.")
 
         st.markdown("---")
         st.markdown("#### Emotion classes")
