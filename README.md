@@ -39,7 +39,7 @@ A Streamlit web app that classifies cat vocalizations into 5 emotion classes usi
 **Limitations**
 Training on a tiny dataset of 5 classes * 10 audios = 50 original audios. We augmented the sound to 5 classes * 42 audios/class during the 5-fold CV, and boosted the augmentation to 5 classes * 48 audios/class = 240 audios in the final training model. Test accuracy ~ 90%.
 
-**Collaborators:** Thanh Nguyen | Lucas Fromont | Chi Hung Chao (Ken)
+**Collaborators:** Thanh Nguyen (Tee) | Lucas Fromont | Chi Hung Chao (Ken)
 
 *With a huge credit to: 
 https://www.kaggle.com/datasets/yagtapandeya/cat-sound-classification-dataset/
