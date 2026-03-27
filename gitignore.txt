@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+.env
+venv/
+.venv/
+
+# Streamlit local cache
+secrets.toml
+.streamlit/secrets.toml
+
+# Data
+Data/
+
