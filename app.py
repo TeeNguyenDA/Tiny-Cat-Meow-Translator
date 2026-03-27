@@ -116,7 +116,7 @@ def run_predict(model, y):
 def validate_audio(file):
     if len(file.getvalue()) / 1e6 > MAX_FILE_MB:
         return f"File exceeds {MAX_FILE_MB} MB limit."
-    if not file.name.lower().endswith((".wav", ".mp3"")):
+    if not file.name.lower().endswith((".wav", ".mp3")):
         return "Unsupported format. Please upload WAV, MP3."
     return None
 
