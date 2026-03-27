@@ -116,8 +116,8 @@ def run_predict(model, y):
 def validate_audio(file):
     if len(file.getvalue()) / 1e6 > MAX_FILE_MB:
         return f"File exceeds {MAX_FILE_MB} MB limit."
-    if not file.name.lower().endswith((".wav", ".mp3", ".ogg", ".flac", ".m4a")):
-        return "Unsupported format. Please upload WAV, MP3, OGG, FLAC, or M4A."
+    if not file.name.lower().endswith((".wav", ".mp3"")):
+        return "Unsupported format. Please upload WAV, MP3."
     return None
 
 
@@ -227,11 +227,11 @@ def main():
 
     uploaded = st.file_uploader(
         "Upload a cat audio clip",
-        type=["wav", "mp3", "ogg", "flac", "m4a"],
+        type=["wav", "mp3"],
         label_visibility="collapsed",
     )
     st.markdown(
-        '<p class="upload-hint">WAV · MP3 · OGG · FLAC · M4A &nbsp;|&nbsp; max 10 MB</p>',
+        '<p class="upload-hint">WAV · MP3 &nbsp;|&nbsp; max 10 MB</p>',
         unsafe_allow_html=True,
     )
 
