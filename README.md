@@ -1,7 +1,7 @@
 **🐱 Tiny Cat Meow Translator**
 
 A Streamlit web app that classifies cat vocalizations into 5 emotion classes using a fine-tuned, pre-trained EfficientNet-B0 model on mel-spectrograms.
-[Streamlit Link](https://tinycatmeowtranslator.streamlit.app/)
+[Tiny Cat Meow Translator Link](https://tinycatmeowtranslator.streamlit.app/)
 
 **Data source**: Adapted from the Cat Sound Classification Dataset on Kaggle for academic purposes only: https://www.kaggle.com/datasets/yagtapandeya/cat-sound-classification-dataset/data
 
